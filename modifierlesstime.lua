@@ -4,10 +4,10 @@ if ModifierCSRLessPagers1 then
 		self._data = data
 		self.icon = "crime_spree_pager"
 
-		tweak_data.player.alarm_pager.call_duration[1][1] = 6 - data.count*2
-		tweak_data.player.alarm_pager.call_duration[2][1] = 6 - data.count*2
-		tweak_data.player.alarm_pager.call_duration[1][2] = 6 - data.count*2
-		tweak_data.player.alarm_pager.call_duration[2][2] = 6 - data.count*2
+		tweak_data.player.alarm_pager.call_duration[1][1] = 6 - data.count
+		tweak_data.player.alarm_pager.call_duration[2][1] = 6 - data.count
+		tweak_data.player.alarm_pager.call_duration[1][2] = 6 - data.count
+		tweak_data.player.alarm_pager.call_duration[2][2] = 6 - data.count
 
 		if EHIPagerTracker then
 			EHIPagerTracker._forced_time = 12 - (data.count*2)
