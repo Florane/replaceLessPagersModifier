@@ -3,7 +3,7 @@
 	"name" : "Replace less pagers modifier",
 	"description" : "Replaces less pagers modifier with less pager response time",
 	"author" : " no",
-	"version" : "2.1",
+	"version" : "1.3.0",
 	"priority" : 0,
 	"color" : "0.000 1.000 1.000",
 	"hooks" : [
